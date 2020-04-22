@@ -1,6 +1,6 @@
 #!/bin/bash
 
-kind create cluster --config multi-node.yaml --name homelab-core
+kind create cluster --config multi-node-cluster.yaml --name homelab-core
 
 kubectl cluster-info --context kind-homelab-core
 
